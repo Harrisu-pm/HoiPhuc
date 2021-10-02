@@ -1,0 +1,14 @@
+name: HoiPhuc
+main: QuocThien908\Main
+version: 1.0
+api: [3.0.0, 4.0.0]
+author: QuocThien908
+commands:
+  hoiphuc:
+    description: "Hồi Phục Máu và Thức Ăn"
+    permission: hoiphuc.cmd
+  
+permissions:
+  hoiphuc.cmd:
+    description: "Quyền Lệnh"
+    default: op
